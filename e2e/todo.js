@@ -7,7 +7,7 @@ var BookFlight = require('../PageObject/PgBookFlight');
 
 describe('Tour ', () => {
 
-    it('Login', () => {
+    it('Should be to do a reservation', () => {
         Login();
         Reservation();
         SelectFlight();
