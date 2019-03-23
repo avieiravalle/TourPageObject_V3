@@ -1,3 +1,5 @@
+const constants = require("../constants/constants");
+
 var BookFlight = function () {
 
 let PassengersNameInput = $('input[name="passFirst0"]');
@@ -8,10 +10,10 @@ let SecurePurchase = $('[name="buyFlights"]');
 
 
 
-PassengersNameInput.sendKeys();
-PassengersLastNameInput.sendKeys();
+PassengersNameInput.sendKeys(constants.PassageiroName);
+PassengersLastNameInput.sendKeys(constants.PassageiroLastName);
 PassengersCardFlag.click();
-PassengersCardNumber.sendKeys();
+PassengersCardNumber.sendKeys(constants.CardNumber);
 SecurePurchase.click();
 
     
