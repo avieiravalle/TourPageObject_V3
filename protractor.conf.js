@@ -7,7 +7,7 @@ exports.config = {
     browserName: 'chrome',
     chromeOptions: {
       args: [
-        "--headless",
+       // "--headless",
         "--window-size=1024,768",
       ],
     },
