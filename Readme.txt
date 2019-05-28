@@ -13,3 +13,5 @@ webdriver-manager status
 webdriver-manager update
 webdriver-manager start.
 
+webdriver-manager update && 
+
